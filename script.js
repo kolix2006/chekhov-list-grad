@@ -1,0 +1,17 @@
+const surnames = [
+  { id: 1, name: "Запухляк", region: "slav", type: "real" },
+  { id: 2, name: "Бабкин", region: "slav", type: "real" },
+  { id: 3, name: "Червяков", region: "slav", type: "fictional" },
+  { id: 4, name: "Свиножиров", region: "slav", type: "fictional" },
+  { id: 5, name: "Головач", region: "slav", type: "real" },
+  { id: 6, name: "Шаманский", region: "slav", type: "real" },
+  { id: 7, name: "Непей-Пиво", region: "slav", type: "real" },
+  { id: 8, name: "Огрызкин", region: "slav", type: "real" },
+  { id: 9, name: "Тиклер", region: "eng", type: "fictional" },
+  { id: 10, name: "Гейб-Хорн", region: "eng", type: "fictional" },
+  { id: 11, name: "Гейлорд", region: "eng", type: "real" },
+  { id: 12, name: "Гейвуд", region: "eng", type: "real" },
+  { id: 13, name: "Пуп", region: "eng", type: "real" },
+  { id: 14, name: "Бутылкин", region: "slav", type: "fictional" },
+  { id: 15, name: "Титяк", region: "slav", type: "real" },
+];

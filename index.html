@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чеховский Список</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>📜 Чеховский Список</h1>
+        <nav>
+            <button data-tab="catalog" class="tab active">Каталог</button>
+            <button data-tab="favorites" class="tab">Избранное</button>
+            <button data-tab="about" class="tab">О проекте</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="catalog" class="screen active">
+            <div class="filters">
+                <label><input type="checkbox" data-filter="region" value="slav"> Славянские</label>
+                <label><input type="checkbox" data-filter="region" value="eng"> Американские</label>
+                <label><input type="checkbox" data-filter="type" value="real"> Реальные</label>
+                <label><input type="checkbox" data-filter="type" value="fictional"> Выдуманные</label>
+                <button id="clear-filters">Сбросить</button>
+            </div>
+            <div id="surnames-list" class="list"></div>
+        </section>
+
+        <section id="favorites" class="screen"></section>
+        <section id="about" class="screen">
+            <h2>О проекте</h2>
+            <p>Каталог забавных фамилий для хохота и литературного референса.</p>
+        </section>
+    </main>
+</body>
+</html>
