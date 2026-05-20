@@ -6,9 +6,10 @@ nav { margin-top: 15px; }
 .tab.active { background: #333; color: #fff; }
 .screen { display: none; background: #fff; padding: 20px; border-radius: 8px; }
 .screen.active { display: block; }
-.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin-top: 15px; }
-.card { padding: 15px; border: 1px solid #ddd; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; }
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 10px; margin-top: 20px; }
+.card { padding: 20px; border: 1px solid #ddd; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; }
 .fav-btn { cursor: pointer; background: none; border: none; font-size: 20px; }
 .fav-btn.active { color: gold; }
 .filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.favorites-p { margin-top: 10px; }
 @media (max-width: 600px) { .filters { flex-direction: column; } }
